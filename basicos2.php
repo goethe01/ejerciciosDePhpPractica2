@@ -38,3 +38,18 @@ foreach($cuadrados as $key){
 echo "<hr>";
 
 // punto 7
+$colores = ["rojo", "verde", "azul"];
+$buscar = "verde";
+if (in_array($buscar, $colores)){
+    echo "El color existe en el array";
+}else {
+    echo "El color no existe en el array";
+}
+
+// punto 8
+echo "<hr>";
+$numeros = [9, 3, 7, 1, 6];
+sort($numeros,); 
+foreach($numeros as $key){
+    echo $key;
+}
