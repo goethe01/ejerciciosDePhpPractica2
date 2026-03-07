@@ -34,153 +34,152 @@
 
 ## 2. **Encontrar el número mayor**
 
-Usa max().
+- Usa max().
 
-Entrada
-$numeros = [10, 25, 3, 99, 42];
-Salida
-El número mayor es: 99
-🧠 3. Encontrar el número menor
+- Entrada
+    - $numeros = [10, 25, 3, 99, 42];
+- Salida
+    - El número mayor es: 99
+## **3. Encontrar el número menor**
 
-Usa min().
+- Usa min().
 
-Entrada
-$numeros = [8, 12, 4, 19, 6];
-Salida
-El número menor es: 4
-🧠 4. Contar cuántas veces aparece cada valor
+- Entrada
+    - $numeros = [8, 12, 4, 19, 6];
+- Salida
+    - El número menor es: 4
+## **4. Contar cuántas veces aparece cada valor**
 
-Usa array_count_values().
+- Usa array_count_values().
 
-Entrada
-$frutas = ["manzana", "pera", "manzana", "banana", "pera", "manzana"];
-Salida
-manzana => 3
-pera => 2
-banana => 1
-🧠 5. Filtrar números mayores a 10
+- Entrada
+    - $frutas = ["manzana", "pera", "manzana", "banana", "pera", "manzana"];
+- Salida
+    - manzana => 3
+    - pera => 2
+    - banana => 1
+## **5. Filtrar números mayores a 10**
 
-Usa array_filter().
+- Usa array_filter().
 
-Entrada
-$numeros = [5, 12, 8, 20, 3, 15];
-Salida
-[12, 20, 15]
-🧠 6. Convertir todos los números al cuadrado
+- Entrada
+    - $numeros = [5, 12, 8, 20, 3, 15];
+- Salida
+    - [12, 20, 15]
+## **6. Convertir todos los números al cuadrado**
 
-Usa array_map().
+- Usa array_map().
 
-Entrada
-$numeros = [2, 3, 4, 5];
-Salida
-[4, 9, 16, 25]
-🧠 7. Verificar si un elemento existe en un array
+- Entrada
+    - $numeros = [2, 3, 4, 5];
+- Salida
+    - [4, 9, 16, 25]
+## **7. Verificar si un elemento existe en un array**
 
-Usa in_array().
+- Usa in_array().
 
-Entrada
-$colores = ["rojo", "verde", "azul"];
-$buscar = "verde";
-Salida
-El color existe en el array
-🧠 8. Ordenar números de menor a mayor
+- Entrada
+    - $colores = ["rojo", "verde", "azul"];
+    - $buscar = "verde";
+- Salida
+    - El color existe en el array
 
-Usa sort().
+## **8. Ordenar números de menor a mayor**
 
-Entrada
-$numeros = [9, 3, 7, 1, 6];
-Salida
-[1, 3, 6, 7, 9]
-🧠 9. Ordenar números de mayor a menor
+- Usa sort().
 
-Usa rsort().
+- Entrada
+    - $numeros = [9, 3, 7, 1, 6];
+- Salida
+    - [1, 3, 6, 7, 9]
+## **9. Ordenar números de mayor a menor**
 
-Entrada
-$numeros = [2, 10, 5, 1];
-Salida
-[10, 5, 2, 1]
-🧠 10. Convertir un array en texto
+- Usa rsort().
 
-Usa implode().
+- Entrada
+    - $numeros = [2, 10, 5, 1];
+- Salida
+    - [10, 5, 2, 1]
 
-Entrada
-$palabras = ["PHP", "es", "genial"];
-Salida
-PHP es genial
-🧠 11. Convertir texto en array
+## **10. Convertir un array en texto**
 
-Usa explode().
+- Usa implode().
 
-Entrada
-$texto = "rojo,verde,azul";
-Salida
-["rojo", "verde", "azul"]
-🧠 12. Sumar solo números pares
+- Entrada
+    - $palabras = ["PHP", "es", "genial"];
+- Salida
+    - PHP es genial
+## **11. Convertir texto en array**
 
-Usa bucle + condicional.
+- Usa explode().
 
-Entrada
-$numeros = [1,2,3,4,5,6];
-Salida
-Suma de pares: 12
+- Entrada
+    - $texto = "rojo,verde,azul";
+- Salida
+    - ["rojo", "verde", "azul"]
 
-(2 + 4 + 6)
+## **12. Sumar solo números pares**
 
-🧠 13. Contar palabras largas
+- Usa bucle + condicional.
 
-Cuenta palabras con más de 5 letras.
+- Entrada
+    - $numeros = [1,2,3,4,5,6];
+- Salida
+    - Suma de pares: 12
+    - (2 + 4 + 6)
 
-Entrada
-$palabras = ["sol", "computadora", "mesa", "programacion", "php"];
-Salida
-Palabras largas: 2
-🧠 14. Crear un array con solo strings
+## **13. Contar palabras largas**
 
-Usa array_filter() y gettype().
+- Cuenta palabras con más de 5 letras.
 
-Entrada
-$datos = [10, "hola", true, "php", 3.14, "codigo"];
-Salida
-["hola", "php", "codigo"]
-🧠 15. Promedio usando array_reduce
+- Entrada
+    - $palabras = ["sol", "computadora", "mesa", "programacion", "php"];
+- Salida
+    - Palabras largas: 2
+## **14. Crear un array con solo strings**
 
-Usa array_reduce().
+- Usa array_filter() y gettype().
 
-Entrada
-$notas = [4, 3, 5, 2, 4];
-Salida
-Promedio: 3.6
-🔥 Ejercicio BONUS (nivel más real)
-Analizador de ventas
-Entrada
-$ventas = [120, 340, 90, 560, 230];
+- Entrada
+    - $datos = [10, "hola", true, "php", 3.14, "codigo"];
+- Salida
+    - ["hola", "php", "codigo"]
 
-Debes calcular:
+## **15. Promedio usando array_reduce**
 
-total
+- Usa array_reduce().
 
-promedio
+- Entrada
+    - $notas = [4, 3, 5, 2, 4];
+- Salida
+    - Promedio: 3.6
 
-venta mayor
+## **Ejercicio BONUS (nivel más real)**
+- Analizador de ventas
+- Entrada
+    - $ventas = [120, 340, 90, 560, 230];
 
-venta menor
+- Debes calcular:
 
-Salida
-Total ventas: 1340
-Promedio: 268
-Mayor venta: 560
-Menor venta: 90
+- total
 
-💡 Consejo importante para aprender PHP rápido
+- promedio
 
-Cuando hagas estos ejercicios intenta usar:
+- venta mayor
 
-foreach
+- venta menor
 
-array_map
+- Salida
+    - Total ventas: 1340
+    - Promedio: 268
+    - Mayor venta: 560
+    - Menor venta: 90
 
-array_filter
+## **Consejo importante para aprender PHP rápido**
 
-array_reduce
-
-porque son el pan de cada día en backend PHP.
+- Cuando hagas estos ejercicios intenta usar:
+    - foreach
+    - array_map
+    - array_filter
+    - array_reduce
+- porque son el pan de cada día en backend PHP.
